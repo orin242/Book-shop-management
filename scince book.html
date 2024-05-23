@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Science Fiction Books</title>
+  <link rel="stylesheet" href="or.css">
+ 
+</head>
+<body>
+  
+    
+
+    <header class="header">
+
+        <div class="header-1">
+
+            <a href="#" class="logo"> <i class="fas fa-book"></i> Bookshop Management </a>
+
+           
+            <div class="icons">
+                <h3>total sell: <span id="total">0</span></h3>
+            </div>
+
+        </div>
+        </div>
+
+        <div class="header-2">
+            <nav class="navbar">
+                <a href="./index.html">home</a>
+                <a href="#featured">featured</a>
+                <a href="#category">category</a>
+            </nav>
+
+        </div>
+
+    </header>
+
+    <!-- header section ends -->
+    <!-- bottom navbar  -->
+
+    <nav class="bottom-navbar">
+        <a href="#home" class="fas fa-home"></a>
+        <a href="#featured" class="fas fa-list"></a>
+        <a href="#arrivals" class="fas fa-tags"></a>
+        
+    </nav>
+
+
+
+
+
+    
+
+<div class="swiper books-slider">
+    <div class="swiper-wrapper">
+        
+    </div>
+
+    <section class="featured" id="featured">
+
+      <h1 class="heading"> <span>featured books</span> </h1>
+
+      <div class="swiper featured-slider">
+
+          <div class="swiper-wrapper" id="featurs">
+
+              <div class="swiper-slide box">
+                  <div class="icons">
+                      <a href="#" class="fas fa-search"></a>
+                      <a href="#" class="fas fa-eye"></a>
+                  </div>
+                  <div class="image">
+                      <a href="./product.html"> <img src="Dune.jpeg" alt=""> </a>
+                  </div>
+                  <div class="content">
+                      <h3>Dune</h3>
+                      <h2>Authors:Farank Herbert</h2>
+                      <div class="price">Tk500.99 <span>$20.99</span></div>
+                      <h3>in stock: <span id="number">30</span> pcs</h3>
+                      <a class="btn" onclick="decrementNumber()" >Sold</a>
+                      <a onclick="incrementNumber()" class="btn">add </a>
+                  </div>
+              </div>
+
+              <div class="swiper-slide box">
+                  <div class="icons">
+                      <a href="#" class="fas fa-search"></a>
+                      <a href="#" class="fas fa-eye"></a>
+                  </div>
+                  <div class="image">
+                      <a href="./product.html"> <img src="Hyperion.jpeg" alt=""> </a>
+                  </div>
+                  <div class="content">
+                      <h3>Hyperion</h3>
+                      <h2>Authors:Dan Simmons.</h2>
+                      <div class="price">Tk:400 </div>
+                      <h3>in stock: <span id="number1">40</span> pcs</h3>
+                      <a class="btn" onclick="decrementNumber1()" >Sold</a>
+                      <a onclick="incrementNumber1()" class="btn">add </a>
+
+                  </div>
+              </div>
+
+              <div class="swiper-slide box">
+                  <div class="icons">
+                      <a href="#" class="fas fa-search"></a>
+                      <a href="#" class="fas fa-eye"></a>
+                  </div>
+                  <div class="image">
+                      <a href="product.html"><img src="The Martian.jpeg" alt=""> </a>
+                  </div>
+                  <div class="content">
+                      <h3>The Martian</h3>
+                      <h2>Authors:Andy Weir</h2>
+                      <div class="price">Tk550 </div>
+                      <h3>in stock: <span id="number2">454</span> pcs</h3>
+                      <a class="btn" onclick="decrementNumber2()" >Sold</a>
+                      <a onclick="incrementNumber2()" class="btn">add </a>
+                  </div>
+              </div>
+
+              <div class="swiper-slide box">
+                  <div class="icons">
+                      <a href="#" class="fas fa-search"></a>
+                      <a href="#" class="fas fa-eye"></a>
+                  </div>
+                  <div class="image">
+                      <img src="the left.jpeg" alt="">
+                  </div>
+                  <div class="content">
+                      <h3>The Left Hand of Darkness</h3>
+                      <h2>Authors:Ursula K. Le Guin.</h2>
+                      <div class="price">Tk500 <span>$20.99</span></div>
+                      <h3>in stock: <span id="number3">454</span> pcs</h3>
+                      <a class="btn" onclick="decrementNumber3()" >Sold</a>
+                      <a onclick="incrementNumber3()" class="btn">add </a>
+                  </div>
+              </div>
+
+              <div class="swiper-slide box">
+                  <div class="icons">
+                      <a href="#" class="fas fa-search"></a>
+                      <a href="#" class="fas fa-eye"></a>
+                  </div>
+                  <div class="image">
+                      <img src="The Hitchhiker's Guide to the Galaxy.jpeg" alt="">
+                  </div>
+                  <div class="content">
+                      <h3>The Hitchhiker's Guide to the Galaxy</h3>
+                      <h2>Authors:Douglas Adams</h2>
+                      <div class="price">Tk:500</div>
+                      <h3>in stock: <span id="number4">45</span> pcs</h3>
+                      <a class="btn" onclick="decrementNumber4()" >Sold</a>
+                      <a onclick="incrementNumber4()" class="btn">add </a>
+                      
+                  </div>
+              </div>
+
+              <div class="swiper-slide box">
+                  <div class="icons">
+                      <a href="#" class="fas fa-search"></a>
+                      <a href="#" class="fas fa-eye"></a>
+                  </div>
+                  <div class="image">
+                      <img src="Brave New World..jpeg" alt="">
+                  </div>
+                  <div class="content">
+                      <h3>Brave New World.</h3>
+                      <h2>Authors:Aldous Huxley</h2>
+                      <div class="price">Tk:400</div>
+                      <h3>in stock: <span id="number5">20</span> pcs</h3>
+                      <a class="btn" onclick="decrementNumber5()" >Sold</a>
+                      <a onclick="incrementNumber5()" class="btn">add </a>
+                  </div>
+              </div>
+
+              <div class="swiper-slide box">
+                  <div class="icons">
+                      <a href="#" class="fas fa-search"></a>
+                      <a href="#" class="fas fa-eye"></a>
+                  </div>
+                  <div class="image">
+                      <img src="Do Androids Dream of Electric Sheep.jpeg" alt="">
+                  </div>
+                  <div class="content">
+                      <h3>Do Androids Dream of Electric Sheep</h3>
+                      <h2>Authors:Philip K. Dick</h2>
+                      <div class="price">Tk:500</div>
+                      <h3>in stock: <span id="number6">250</span> pcs</h3>
+                      <a class="btn" onclick="decrementNumber6()" >Sold</a>
+                      <a onclick="incrementNumber6()" class="btn">add </a>
+                  </div>
+              </div>
+
+              <div class="swiper-slide box">
+                  <div class="icons">
+                      <a href="#" class="fas fa-search"></a>
+                      <a href="#" class="fas fa-eye"></a>
+                  </div>
+                  <div class="image">
+                      <img src="Neuromancer.jpeg" alt="">
+                  </div>
+                  <div class="content">
+                      <h3> Neuromancer </h3>
+                      <h2>Authors:William Gibson.</h2>
+                      <div class="price">Tk:500</div>
+                      <h3>in stock: <span id="number7">50</span> pcs</h3>
+                      <a class="btn" onclick="decrementNumber7()" >Sold</a>
+                      <a onclick="incrementNumber7()" class="btn">add </a>
+                  </div>
+              </div>
+
+              <div class="swiper-slide box">
+                  <div class="icons">
+                      <a href="#" class="fas fa-search"></a>
+                      <a href="#" class="fas fa-eye"></a>
+                  </div>
+                  <div class="image">
+                      <img src="The Three-Body Problem.png" alt="">
+                  </div>
+                  <div class="content">
+                      <h3>The Three-Body Problem</h3>
+                      <h2>Authors:Liu Cixin</h2>
+                      <div class="price">Tk:500</div>
+                      <h3>in stock: <span id="number8">50</span> pcs</h3>
+                      <a class="btn" onclick="decrementNumber8()" >Sold</a>
+                      <a onclick="incrementNumber8()" class="btn">add </a>
+
+                  </div>
+              </div>
+
+              <div class="swiper-slide box">
+                  <div class="icons">
+                      <a href="#" class="fas fa-search"></a>
+                      <a href="#" class="fas fa-eye"></a>
+                  </div>
+                  <div class="image">
+                      <img src="Last-Watch.jpg" alt="">
+                  </div>
+                  <div class="content">
+                      <h3>The Last Watch</h3>
+                      <h2>Authors:J.S. Dewes.</h2>
+                      <div class="price">Tk:500</div>
+                      <h3>in stock: <span id="number9">50</span> pcs</h3>
+                      <a class="btn" onclick="decrementNumber9()" >Sold</a>
+                      <a onclick="incrementNumber9()" class="btn">add </a>
+                  </div>
+              </div>
+              <div class="swiper-slide box">
+                  <div class="icons">
+                      <a href="#" class="fas fa-search"></a>
+                      <a href="#" class="fas fa-eye"></a>
+                  </div>
+                  <div class="image">
+                      <img src="The Calculating Stars.jpeg" alt="">
+                  </div>
+                  <div class="content">
+                      <h3>The Calculating Stars</h3>
+                      <h2>Authors:William Gibson.</h2>
+                      <div class="price">Tk:500</div>
+                      <h3>in stock: <span id="number10">50</span> pcs</h3>
+                      <a class="btn" onclick="decrementNumber10()" >Sold</a>
+                      <a onclick="incrementNumber10()" class="btn">add </a>
+                  </div>
+              </div>
+              <div class="swiper-slide box">
+                  <div class="icons">
+                      <a href="#" class="fas fa-search"></a>
+                      <a href="#" class="fas fa-eye"></a>
+                  </div>
+                  <div class="image">
+                      <img src="Science Fiction 2.jpeg" alt="">
+                  </div>
+                  <div class="content">
+                      <h3>Science Fiction</h3>
+                      <h2>Authors:William Gibson.</h2>
+                      <div class="price">Tk:500</div>
+                      <h3>in stock: <span id="number11">50</span> pcs</h3>
+                      <a class="btn" onclick="decrementNumber11()" >Sold</a>
+                      <a onclick="incrementNumber11()" class="btn">add </a>
+                  </div>
+              </div>
+
+          
+
+      </div>
+
+  </section>
+    </main>
+    
+<!--footer-->
+<footer>
+    <a class="btn" href="index.html" >Back to home</a>
+    </footer>
+
+<script src="newFile.js"></script>
+
+    </body>
+    
+    </html>
+    
+    

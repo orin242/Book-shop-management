@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookshop Management</title>
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="or.css">
+    <!-- header section starts  -->
+  
+    <header class="header">
+
+        <div class="header-1">
+
+            <a href="#" class="logo"> <i class="fas fa-book"></i> Bookshop Management </a>
+
+           
+            <div class="icons">
+                <h3>total sell: <span id="total">0</span></h3>
+            </div>
+
+        </div>
+        
+
+        <div class="header-2">
+            <nav class="navbar">
+                <a href="./index.html">home</a>
+                <a href="#featured">featured</a>
+                <a href="#category">category</a>
+
+                
+            </nav>
+
+        </div>
+       
+
+           
+        
+            
+        
+        
+
+    </header>
+
+    <!-- header section ends -->
+    <!-- bottom navbar  -->
+
+    <nav class="bottom-navbar">
+        <a href="#home" class="fas fa-home"></a>
+        <a href="#featured" class="fas fa-list"></a>
+        <a href="#arrivals" class="fas fa-tags"></a>
+        
+    </nav>
+  
+   
+
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+
+        <div class="row">
+
+            
+
+            <div class="swiper books-slider">
+                <div class="swiper-wrapper">
+                    <a href="#" class="swiper-slide"><img src="book22.jpg" alt=""></a>
+                    <a href="#" class="swiper-slide"><img src="book222.avif" alt=""></a>
+                    <a href="#" class="swiper-slide"><img src="book3.jpg" alt=""></a>
+                </div>
+                <img src="stand.png" class="stand" alt="">
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- home section ense  -->
+
+
+   
+    <!-- featured section starts  -->
+
+    <section class="featured" id="featured">
+
+        <h1 class="heading"> <span>featured books</span> </h1>
+
+        <div class="swiper featured-slider">
+
+            <div class="swiper-wrapper" id="featurs">
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <a href="./product.html"> <img src="book-1.png" alt=""> </a>
+                    </div>
+                    <div class="content">
+                        <h3>Engineering Mathematics</h3>
+                        <div class="price">Tk500.99 </div>
+                        <h3>in stock: <span id="number">30</span> pcs</h3>
+                        <a class="btn" onclick="decrementNumber()" >Sold</a>
+                        <a onclick="incrementNumber()" class="btn">add </a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <a href="./product.html"> <img src="book-2.png" alt=""> </a>
+                    </div>
+                    <div class="content">
+                        <h3>Engineering  Mechanics</h3>
+                        <div class="price">Tk:400 </div>
+                        <h3>in stock: <span id="number1">454</span> pcs</h3>
+                        <a class="btn" onclick="decrementNumber1()" >Sold</a>
+                        <a onclick="incrementNumber1()" class="btn">add </a>
+
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <a href="product.html"><img src="book-3.png" alt=""> </a>
+                    </div>
+                    <div class="content">
+                        <h3>Applied physics</h3>
+                        <div class="price">Tk550 </div>
+                        <h3>in stock: <span id="number2">454</span> pcs</h3>
+                        <a class="btn" onclick="decrementNumber2()" >Sold</a>
+                        <a onclick="incrementNumber2()" class="btn">add </a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="book-4.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Engineering  drawing</h3>
+                        <div class="price">Tk500 </div>
+                        <h3>in stock: <span id="number3">454</span> pcs</h3>
+                        <a class="btn" onclick="decrementNumber3()" >Sold</a>
+                        <a onclick="incrementNumber3()" class="btn">add </a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="book-5.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Engineering math2</h3>
+                        <div class="price">Tk:500</div>
+                        <h3>in stock: <span id="number4">454</span> pcs</h3>
+                        <a class="btn" onclick="decrementNumber4()" >Sold</a>
+                        <a onclick="incrementNumber4()" class="btn">add </a>
+                        
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="book-6.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Automata theory</h3>
+                        <div class="price">Tk:400</div>
+                        <h3>in stock: <span id="number5">200</span> pcs</h3>
+                        <a class="btn" onclick="decrementNumber5()" >Sold</a>
+                        <a onclick="incrementNumber5()" class="btn">add </a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="book-7.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Saftware Engineering</h3>
+                        <div class="price">Tk:500</div>
+                        <h3>in stock: <span id="number6">250</span> pcs</h3>
+                        <a class="btn" onclick="decrementNumber6()" >Sold</a>
+                        <a onclick="incrementNumber6()" class="btn">add </a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="book-8.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3> database system</h3>
+                        <div class="price">Tk:500</div>
+                        <h3>in stock: <span id="number7">250</span> pcs</h3>
+                        <a class="btn" onclick="decrementNumber7()" >Sold</a>
+                        <a onclick="incrementNumber7()" class="btn">add </a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="book-9.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>cryptography And Network Security</h3>
+                        <div class="price">Tk:500</div>
+                        <h3>in stock: <span id="number8">250</span> pcs</h3>
+                        <a class="btn" onclick="decrementNumber8()" >Sold</a>
+                        <a onclick="incrementNumber8()" class="btn">add </a>
+
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="book-10.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Mobile communications</h3>
+                        <div class="price">Tk:500</div>
+                        <h3>in stock: <span id="number9">250</span> pcs</h3>
+                        <a class="btn" onclick="decrementNumber9()" >Sold</a>
+                        <a onclick="incrementNumber9()" class="btn">add </a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="DSbook.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>data Structures</h3>
+                        <div class="price">Tk:500</div>
+                        <h3>in stock: <span id="number10">250</span> pcs</h3>
+                        <a class="btn" onclick="decrementNumber10()" >Sold</a>
+                        <a onclick="incrementNumber10()" class="btn">add </a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="discrete.jpeg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Discrete Math</h3>
+                        <div class="price">Tk:500</div>
+                        <h3>in stock: <span id="number11">250</span> pcs</h3>
+                        <a class="btn" onclick="decrementNumber11()" >Sold</a>
+                        <a onclick="incrementNumber11()" class="btn">add </a>
+                    </div>
+                </div>
+
+           
+
+        </div>
+
+    </section>
+
+    <!-- featured section ends -->
+    <!-- category section starts  -->
+
+    <section class="arrivals" id="category">
+
+        <h1 class="heading"> <span>Category</span> </h1>
+
+        <div class="swiper arrivals-slider">
+
+            <div class="swiper-wrapper catagory" id="">
+
+                <a href="engineearing book.html" class="swiper-slide box">
+                    <div class="image">
+                        <img src="eng.jpeg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>ENGINEEARING BOOKS</h3>
+                    </div>
+                </a>
+
+                <a href="story book.html" class="swiper-slide box">
+                    <div class="image">
+                        <img src="story book. 1.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>STORY BOOK</h3>
+                    </div>
+                </a>
+
+                <a href="novel book.html" class="swiper-slide box">
+                    <div class="image">
+                        <img src="novel.jpeg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>NOVEL BOOKS</h3>
+                    </div>
+                </a>
+
+              
+            </div>
+
+
+            <div class="swiper-wrapper catagory">
+                
+
+
+        
+            <a href="history book.html" class="swiper-slide box">
+                <div class="image">
+                    <img src="history.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>HISTORY</h3>
+                </div>
+            </a>
+
+
+                <a href="drama book.html" class="swiper-slide box">
+                    <div class="image">
+                        <img src="drama.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>DRAMA</h3>
+                    </div>
+                </a>
+
+                <a href="islamic book.html" class="swiper-slide box">
+                    <div class="image">
+                        <img src="islamic.webp" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>ISLAMIC</h3>
+                    </div>
+                </a>
+
+                <a href="scince book.html" class="swiper-slide box">
+                    <div class="image">
+                        <img src="science fiction.jpeg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>SCIENCE FICTION</h3>
+                    </div>
+             
+
+                
+
+        </div>
+
+    </section>
+
+    <!-- category section ends -->
+   
+ 
+ <script src="newFile.js"></script>
+
+
+    </body>
+
+</html>

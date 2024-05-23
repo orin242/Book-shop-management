@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Drama Books</title>
+  <link rel="stylesheet" href="or.css">
+ 
+</head>
+<body>
+  
+
+  <header class="header">
+
+    <div class="header-1">
+
+        <a href="#" class="logo"> <i class="fas fa-book"></i> Bookshop Management </a>
+
+       
+        <div class="icons">
+            <h3>total sell: <span id="total">0</span></h3>
+        </div>
+
+    </div>
+    </div>
+
+    <div class="header-2">
+        <nav class="navbar">
+            <a href="./index.html">home</a>
+            <a href="#featured">featured</a>
+            <a href="#category">category</a>
+        </nav>
+
+    </div>
+
+</header>
+
+<!-- header section ends -->
+<!-- bottom navbar  -->
+
+<nav class="bottom-navbar">
+    <a href="#home" class="fas fa-home"></a>
+    <a href="#featured" class="fas fa-list"></a>
+    <a href="#arrivals" class="fas fa-tags"></a>
+    
+</nav>
+
+
+
+
+
+
+  
+
+<div class="swiper books-slider">
+    <div class="swiper-wrapper">
+        
+    </div>
+
+    <section class="featured" id="featured">
+
+      <h1 class="heading"> <span>Drama Book</span> </h1>
+
+      <div class="swiper featured-slider">
+
+          <div class="swiper-wrapper" id="featurs">
+
+              <div class="swiper-slide box">
+                  <div class="icons">
+                      <a href="#" class="fas fa-search"></a>
+                      <a href="#" class="fas fa-eye"></a>
+                  </div>
+                  <div class="image">
+                      <a href="./product.html"> <img src="dra 1.jpg" alt=""> </a>
+                  </div>
+                  <div class="content">
+                      <h3>The Practice Kiss</h3>
+                      <h2>Authors:Sara Martin</h2>
+                      <div class="price">Tk200.99 </span></div>
+                      <h3>in stock: <span id="number">30</span> pcs</h3>
+                      <a class="btn" onclick="decrementNumber()" >Sold</a>
+                      <a onclick="incrementNumber()" class="btn">add </a>
+                  </div>
+              </div>
+
+              <div class="swiper-slide box">
+                  <div class="icons">
+                      <a href="#" class="fas fa-search"></a>
+                      <a href="#" class="fas fa-eye"></a>
+                  </div>
+                  <div class="image">
+                      <a href="./product.html"> <img src="dra 2.jpg" alt=""> </a>
+                  </div>
+                  <div class="content">
+                      <h3>Comeback</h3>
+                      <h2>Authors:Lyn Ashwood, Rachel Rose</h2>
+                      <div class="price">Tk:200 </div>
+                      <h3>in stock: <span id="number1">454</span> pcs</h3>
+                      <a class="btn" onclick="decrementNumber1()" >Sold</a>
+                      <a onclick="incrementNumber1()" class="btn">add </a>
+
+                  </div>
+              </div>
+
+              <div class="swiper-slide box">
+                  <div class="icons">
+                      <a href="#" class="fas fa-search"></a>
+                      <a href="#" class="fas fa-eye"></a>
+                  </div>
+                  <div class="image">
+                      <a href="product.html"><img src="dra 3.jpg" alt=""> </a>
+                  </div>
+                  <div class="content">
+                      <h3>Red White Royal Blur</h3>
+                      <h2>Authors:Casey Mcquiston</h2>
+                      <div class="price">Tk250 </div>
+                      <h3>in stock: <span id="number2">240</span> pcs</h3>
+                      <a class="btn" onclick="decrementNumber2()" >Sold</a>
+                      <a onclick="incrementNumber2()" class="btn">add </a>
+                  </div>
+              </div>
+
+              <div class="swiper-slide box">
+                  <div class="icons">
+                      <a href="#" class="fas fa-search"></a>
+                      <a href="#" class="fas fa-eye"></a>
+                  </div>
+                  <div class="image">
+                      <img src="drama 4.webp" alt="">
+                  </div>
+                  <div class="content">
+                      <h3>drama</h3>
+                      <h2>Authors:Sara Martin</h2>
+                      <div class="price">Tk220</span></div>
+                      <h3>in stock: <span id="number3">45</span> pcs</h3>
+                      <a class="btn" onclick="decrementNumber3()" >Sold</a>
+                      <a onclick="incrementNumber3()" class="btn">add </a>
+                  </div>
+              </div>
+
+              <div class="swiper-slide box">
+                  <div class="icons">
+                      <a href="#" class="fas fa-search"></a>
+                      <a href="#" class="fas fa-eye"></a>
+                  </div>
+                  <div class="image">
+                      <img src="the-kite-runner-books-photo-u1.jpeg" alt="">
+                  </div>
+                  <div class="content">
+                      <h3>The Kite Runner</h3>
+                      <h2>Authors:Khaled Hosseini</h2>
+                      <div class="price">Tk:200</div>
+                      <h3>in stock: <span id="number4">454</span> pcs</h3>
+                      <a class="btn" onclick="decrementNumber4()" >Sold</a>
+                      <a onclick="incrementNumber4()" class="btn">add </a>
+                      
+                  </div>
+              </div>
+
+              <div class="swiper-slide box">
+                  <div class="icons">
+                      <a href="#" class="fas fa-search"></a>
+                      <a href="#" class="fas fa-eye"></a>
+                  </div>
+                  <div class="image">
+                      <img src="the-loch-books-photo-1.jpeg" alt="">
+                  </div>
+                  <div class="content">
+                      <h3>The Loch</h3>
+                        
+                      <h2>Authors:Steve Alten
+                      </h2>
+                      <div class="price">Tk:200</div>
+                      <h3>in stock: <span id="number5">200</span> pcs</h3>
+                      <a class="btn" onclick="decrementNumber5()" >Sold</a>
+                      <a onclick="incrementNumber5()" class="btn">add </a>
+                  </div>
+              </div>
+
+              <div class="swiper-slide box">
+                  <div class="icons">
+                      <a href="#" class="fas fa-search"></a>
+                      <a href="#" class="fas fa-eye"></a>
+                  </div>
+                  <div class="image">
+                      <img src="Sirajuddaula-Natok-By-Girish-Chandra-Ghosh.jpg" alt="">
+                  </div>
+                  <div class="content">
+                      <h3>Sirajuddaula</h3>
+                      <h2>Authors:Girish Chandra Ghosh</h2>
+                      <div class="price">Tk:200</div>
+                      <h3>in stock: <span id="number6">25</span> pcs</h3>
+                      <a class="btn" onclick="decrementNumber6()" >Sold</a>
+                      <a onclick="incrementNumber6()" class="btn">add </a>
+                  </div>
+              </div>
+
+              <div class="swiper-slide box">
+                  <div class="icons">
+                      <a href="#" class="fas fa-search"></a>
+                      <a href="#" class="fas fa-eye"></a>
+                  </div>
+                  <div class="image">
+                      <img src="book-8.png" alt="">
+                  </div>
+                  <div class="content">
+                      <h3> Prafulla</h3>
+                      <h2>Authors:Girish Chandra Ghosh</h2>
+                      <div class="price">Tk:200</div>
+                      <h3>in stock: <span id="number7">50</span> pcs</h3>
+                      <a class="btn" onclick="decrementNumber7()" >Sold</a>
+                      <a onclick="incrementNumber7()" class="btn">add </a>
+                  </div>
+              </div>
+
+              <div class="swiper-slide box">
+                  <div class="icons">
+                      <a href="#" class="fas fa-search"></a>
+                      <a href="#" class="fas fa-eye"></a>
+                  </div>
+                  <div class="image">
+                      <img src="krishno.png" alt="">
+                  </div>
+                  <div class="content">
+                      <h3>Krishnokumari</h3>
+                      <h2>Authors:Maicle Modhusudon Dotto</h2>
+                      <div class="price">Tk:200</div>
+                      <h3>in stock: <span id="number8">50</span> pcs</h3>
+                      <a class="btn" onclick="decrementNumber8()" >Sold</a>
+                      <a onclick="incrementNumber8()" class="btn">add </a>
+
+                  </div>
+              </div>
+
+              <div class="swiper-slide box">
+                  <div class="icons">
+                      <a href="#" class="fas fa-search"></a>
+                      <a href="#" class="fas fa-eye"></a>
+                  </div>
+                  <div class="image">
+                      <img src="golpoguccho.png" alt="">
+                  </div>
+                  <div class="content">
+                      <h3>Golpoguccho</h3>
+                      <h2>Authors:Rabindranath Tagore</h2>
+                      <div class="price">Tk:600</div>
+                      <h3>in stock: <span id="number9">20</span> pcs</h3>
+                      <a class="btn" onclick="decrementNumber9()" >Sold</a>
+                      <a onclick="incrementNumber9()" class="btn">add </a>
+                  </div>
+              </div>
+              <div class="swiper-slide box">
+                  <div class="icons">
+                      <a href="#" class="fas fa-search"></a>
+                      <a href="#" class="fas fa-eye"></a>
+                  </div>
+                  <div class="image">
+                      <img src="chotoder natok.webp" alt="">
+                  </div>
+                  <div class="content">
+                      <h3>Chotoder Natok</h3>
+                      <h2>Authors:Lila Mojumder</h2>
+                      <div class="price">Tk:500</div>
+                      
+                      <h3>in stock: <span id="number10">250</span> pcs</h3>
+                      <a class="btn" onclick="decrementNumber10()" >Sold</a>
+                      <a onclick="incrementNumber10()" class="btn">add </a>
+                  </div>
+              </div>
+              <div class="swiper-slide box">
+                  <div class="icons">
+                      <a href="#" class="fas fa-search"></a>
+                      <a href="#" class="fas fa-eye"></a>
+                  </div>
+                  <div class="image">
+                      <img src="path.webp" alt="">
+                  </div>
+                  <div class="content">
+                      <h3>Path</h3>
+                      <h2>Authors:DHRUBA GUPTA</h2>
+                      <div class="price">Tk:500</div>
+                      <h3>in stock: <span id="number11">50</span> pcs</h3>
+                      <a class="btn" onclick="decrementNumber11()" >Sold</a>
+                      <a onclick="incrementNumber11()" class="btn">add </a>
+                  </div>
+              </div>
+
+        
+
+      </div>
+
+  </section>
+    </main>
+    <!--footer-->
+<footer>
+    <a class="btn" href="index.html" >Back to home</a>
+    </footer>
+
+<script src="newFile.js"></script>
+    </body>
+    
+    </html>
+    
+    
